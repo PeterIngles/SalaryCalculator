@@ -4,6 +4,7 @@ function onReady() {
     console.log('in OnReady')
 
     $('.submit-button').on('click', handleSubmit)
+    $('#tableSalaries').on('click', '#salaryRow', deleteRow)
   }
 
   function handleSubmit(event) {
@@ -25,4 +26,9 @@ function onReady() {
       <td>${annualSalaryInput}</td>
       <td><button>❌</button</td>
     </tr> `)
+  }
+
+  function deleteRow(){
+    console.log('inside deleteRow', $(this))
+    $(this).remove()
   }
