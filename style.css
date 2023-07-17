@@ -1,12 +1,9 @@
-/* GLOBAL TYPOGRAPHY */
 body {
-    background-color: #e6b0b0;
-    font-family: 'Roboto', sans-serif;
-    color: #313131;
+    background-color: rgb(103, 64, 64);
+    font-family: 'Georgia', sans-serif;
+    color: #ffffff;
     font-size: 1.25em;
   }
-  
-    
   
   html, body {
     min-height: 100vh;
@@ -17,48 +14,54 @@ body {
     flex-direction: column;
   }
   header {
+    display: flex;
+    color: #000000;
     height: 8em;
-    background-color: #7a7a7a;
+    background-color: #ff0000;
     text-align: center;
+    background-image: url(header.jpg);
   }
+
   main {
     flex: auto;
     max-width: 80%;
     margin: auto;
   }
-  footer {
-    height: 8em;
-    background-color: #7a7a7a;
-    text-align: center;
-  }
-  
-  
-  /* HEADER/FOOTER */
+
   header, footer {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
+  footer {
+    display: block;
+    color:#000000;
+    background-color: #000000;
+    background-image: url(footer.jpg);
+  }
+
   h1 {
     font-size: 2.5em;
   }
   
-  
-  /* FORM ELEMENTS */
   input {
+    color: #fcfcfc;
     padding: .5em;
     width: 150px;
-    background: #FCFCFC;
+    background: #76b3ac;
     border: 1px solid;
+  }
+
+  form{
+    color: #dcdcdc;
   }
   button {
     padding: .5em;
     width: 75px;
   }
   
-  
-  /* TABLE */
   table {
     width: 100%;
     text-align: left;
@@ -85,4 +88,10 @@ body {
   
   .redBackground{
     background-color: red;
+  }
+  
+  h3{
+    display: flex;
+    align-items: end;
+    flex-direction: column-reverse;
   }

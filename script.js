@@ -33,7 +33,7 @@ function handleSubmit(event) {
 
     $('#firstNameInput').val("")
     $('#lastNameInput').val("")
-    $('#IDInput').val("")
+    $('#idInput').val("")
     $('#titleInput').val("")
     $('#annualSalaryInput').val("")
 
